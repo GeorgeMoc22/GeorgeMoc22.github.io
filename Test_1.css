@@ -1,0 +1,26 @@
+.container {
+    width: 600px;
+    height: 600px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 2fr 1fr;
+    grid-gap: 10px 10px;
+    align-content: center;
+    justify-content: center;
+
+
+}
+
+
+.container > div {
+    height: 100%;
+    width: 100%;
+    border: 1px solid grey;
+    background-color: lightgrey;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+
+}  
